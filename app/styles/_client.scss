@@ -1,0 +1,27 @@
+
+.blurb{
+	border: 10px solid rgb(235,235,235);
+	padding: 60px;
+	@include box-sizing(border-box);
+	width: 100%;
+	font:  1.3em/1.5em'Vollkorn', serif;
+	color: rgb(54,89,99);
+	text-align:center;
+	img{
+		display:inline;
+		height: 1.3em;
+		width:auto;
+	}
+}
+
+.mini-blurb{
+	text-align:center;
+	div{
+		background-color: black;
+		color: white;
+		padding:5px;
+		margin:5px;
+		display:inline-block;
+		font:  1.3em/1.5em'Vollkorn', serif;
+	}
+}
